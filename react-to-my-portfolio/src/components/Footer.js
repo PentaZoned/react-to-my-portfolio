@@ -3,7 +3,7 @@ import './styles/Footer.css';
 
 const styles = {
     links: {
-        color: "white"
+        color: "blue"
     }
 }
 
