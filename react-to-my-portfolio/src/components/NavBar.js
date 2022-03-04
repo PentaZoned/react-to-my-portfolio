@@ -12,7 +12,7 @@ const styles = {
     }
 }
 
-function NavTabs({currentPage, handlePageChange}) {
+function NavBar({currentPage, handlePageChange}) {
     return (
         <ul className='nav nav-tabs'>
             <li style={styles.name}>
@@ -53,4 +53,4 @@ function NavTabs({currentPage, handlePageChange}) {
     );
 }
 
-export default NavTabs;
+export default NavBar;

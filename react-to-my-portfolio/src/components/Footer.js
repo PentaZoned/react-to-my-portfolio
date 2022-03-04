@@ -1,14 +1,24 @@
 import React from 'react';
 import './styles/Footer.css';
 
+const styles = {
+    links: {
+        color: "white"
+    }
+}
+
 function Footer() {
     return (
-        <p class="text-center">
-            Business Email: <a href="mailto:vle.bradley@gmail.com">vle.bradley@gmail.com</a><br />
-            Github: <a href="https://github.com/PentaZoned">PentaZoned</a><br />
-            LinkedIn: <a href="https://www.linkedin.com/in/bradley-le-/">Bradley Le</a><br />
-            Phone Number: <span class="underline"><strong>510-414-7197</strong></span><br />
+        <div className='footerPosition'>
+            <p className="text-center">
+                <hr />
+                Business Email: <a href="mailto:vle.bradley@gmail.com" style={styles.links}>vle.bradley@gmail.com</a><br />
+                Github: <a href="https://github.com/PentaZoned" style={styles.links}>PentaZoned</a><br />
+                LinkedIn: <a href="https://www.linkedin.com/in/bradley-le-/" style={styles.links}>Bradley Le</a><br />
+                Phone Number: <span class="underline"><strong>510-414-7197</strong></span><br />
+                Medium: <a href='https://medium.com/@brabrele' style={styles.links}>@brabrele</a>
         </p>
+        </div>
     );
 }
 

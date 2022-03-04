@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTab';
+import NavBar from './NavBar';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
@@ -8,7 +8,6 @@ import Footer from './Footer';
 
 const styles = {
     bodyColor: {
-        backgroundColor: "gray",
         color: "white",
     }
 };
@@ -35,7 +34,7 @@ export default function PortfolioContainer() {
 
     return (
         <div style={styles.bodyColor}>
-            {<NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />}
+            {<NavBar currentPage={currentPage} handlePageChange={handlePageChange} />}
             {renderPage()}
             {<Footer />}
         </div>
