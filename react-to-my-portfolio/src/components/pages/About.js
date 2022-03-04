@@ -5,18 +5,18 @@ import '../styles/About.css';
 
 function About() {
     return (
-        <section id="about" class="p-4 ">
-            <h2 class="text-center">
+        <section id="about" className="p-4 ">
+            <h2 className="text-center">
                     About Me
             </h2>
             <hr />
 
-            <div class="d-flex flex-row">
-                <div class="aboutPic order-1">
+            <div className="d-flex flex-row">
+                <div className="aboutPic order-1">
                     <img src={selfPortrait} alt="portrait of Bradley"/>
                 </div>
 
-                <div class="p-4 order-2">
+                <div className="p-4 order-2">
                     <p>
                         My name is Bradley Le. I was born and raised in Hayward, CA. I live in a very diverse urban
                         community.
