@@ -10,6 +10,7 @@ function Contact() {
     return (
         <section id="contact" className="p-2">
             <h2 className='text-center'>Contact Me</h2>
+            <hr />
             <form className='px-5'>
                 <label for="name">Name: </label><br />
                 <input type="text" id="name" name="name" placeholder='John Doe' style={styles.background}/><br /><br />

@@ -22,10 +22,16 @@ const currentProjects = [
     }
 ]
 
+const styles = {
+    links: {
+        color: 'blue'
+    }
+}
+
 function Portfolio() {
     return (
         <section className='projectSection'>
-            <h2 className='text-center'>
+            <h2 className='text-center p-4'>
                 Projects
             </h2>
             <hr />
@@ -35,8 +41,8 @@ function Portfolio() {
                     {currentProjects[0].title}
                 </h4>
                 <p class="text-center">
-                    <a href={currentProjects[0].deployed}>Deployed Link</a> |
-                    <a href={currentProjects[0].repo}>Github Repository</a>
+                    <a href={currentProjects[0].deployed} style={styles.links}>Deployed Link</a> |
+                    <a href={currentProjects[0].repo} style={styles.links}>Github Repository</a>
                 </p>
                 <div class="d-flex justify-content-center pb-5">
                     <img src={FeedMe} class="img-fluid order-1" alt="screenshot of Feed Me project" />
@@ -49,8 +55,8 @@ function Portfolio() {
                 </h4>
 
                 <p class="text-center">
-                    <a href={currentProjects[1].deployed}>Deployed Link</a> |
-                    <a href={currentProjects[1].repo}>Github Repository</a>
+                    <a href={currentProjects[1].deployed} style={styles.links}>Deployed Link</a> | 
+                    <a href={currentProjects[1].repo} style={styles.links}>Github Repository</a>
                 </p>
 
                 <div class="d-flex justify-content-center pb-5">
@@ -65,8 +71,8 @@ function Portfolio() {
                 </h4>
 
                 <p class="text-center">
-                    <a href={currentProjects[1].deployed}>Deployed Link</a> |
-                    <a href={currentProjects[2].repo}>Github Repository</a>
+                    <a href={currentProjects[1].deployed} style={styles.links}>Deployed Link</a> | 
+                    <a href={currentProjects[2].repo} style={styles.links}>Github Repository</a>
                 </p>
 
                 <div class="d-flex justify-content-center pb-5">
