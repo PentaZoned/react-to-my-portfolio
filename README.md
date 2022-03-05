@@ -12,15 +12,15 @@ This portfolio is created by using React. The pages are dynamically updated inst
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://pentazoned.github.io/react-to-my-portfolio/)
 
 ## Authors
 
 * **Bradley Le** 
 
-- [Link to Portfolio Site](#)
-- [Link to Github](https://github.com/)
-- [Link to LinkedIn](https://www.linkedin.com/)
+- [Link to Portfolio Site](https://pentazoned.github.io/react-to-my-portfolio/)
+- [Link to Github](https://github.com/pentazoned)
+- [Link to LinkedIn](https://www.linkedin.com/in/bradley-le-/)
 
 ## License
 
