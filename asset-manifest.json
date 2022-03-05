@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-to-my-portfolio/static/css/main.b1723a46.css",
+    "main.js": "/react-to-my-portfolio/static/js/main.1143e733.js",
+    "static/media/resume.pdf": "/react-to-my-portfolio/static/media/resume.680a039ed0c0ec9c2429.pdf",
+    "static/media/self-portrait.jpg": "/react-to-my-portfolio/static/media/self-portrait.5218a7b1d12f3b7e2323.jpg",
+    "static/media/workdayScheduler.jpg": "/react-to-my-portfolio/static/media/workdayScheduler.9ade07f986b2a8bf588b.jpg",
+    "static/media/feed-me.jpg": "/react-to-my-portfolio/static/media/feed-me.19942e932e5183f66f44.jpg",
+    "static/media/weatherDashboard.jpg": "/react-to-my-portfolio/static/media/weatherDashboard.94003ff76c9b52a26ec0.jpg",
+    "static/media/dontfundme.jpg": "/react-to-my-portfolio/static/media/dontfundme.0f0b6ff89a6e649ea3dd.jpg",
+    "static/media/noteTaker.jpg": "/react-to-my-portfolio/static/media/noteTaker.1502ae5d7ed0a1cd6207.jpg",
+    "index.html": "/react-to-my-portfolio/index.html",
+    "main.b1723a46.css.map": "/react-to-my-portfolio/static/css/main.b1723a46.css.map",
+    "main.1143e733.js.map": "/react-to-my-portfolio/static/js/main.1143e733.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1723a46.css",
+    "static/js/main.1143e733.js"
+  ]
+}
