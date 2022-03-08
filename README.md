@@ -14,6 +14,12 @@ This portfolio is created by using React. The pages are dynamically updated inst
 
 * [See Live Site](https://pentazoned.github.io/react-to-my-portfolio/)
 
+## Screenshots and Gif
+
+![Gif of nagivating through the portoflio](./react-to-my-portfolio/src/components/images/reactPortfolio.gif)
+![Screenshot of About Me section](./react-to-my-portfolio/src/components/images/about1.jpg)
+![Screenshot of Resume section](./react-to-my-portfolio/src/components/images/resume1.jpg)
+
 ## Authors
 
 * **Bradley Le** 
