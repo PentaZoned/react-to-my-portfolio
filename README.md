@@ -16,8 +16,16 @@ This portfolio is created by using React. The pages are dynamically updated inst
 
 ## Screenshots and Gif
 
+Demonstration of navigating through the portfolio
+
 ![Gif of nagivating through the portoflio](./react-to-my-portfolio/src/components/images/reactPortfolio.gif)
+
+About Me Section
+
 ![Screenshot of About Me section](./react-to-my-portfolio/src/components/images/about1.jpg)
+
+Resume Section
+
 ![Screenshot of Resume section](./react-to-my-portfolio/src/components/images/resume1.jpg)
 
 ## Authors
